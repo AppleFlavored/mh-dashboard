@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { RouterView } from 'vue-router';
 import Sidebar from '../components/Sidebar.vue';
 import SidebarItem from '../components/SidebarItem.vue';
 </script>
@@ -12,6 +13,6 @@ import SidebarItem from '../components/SidebarItem.vue';
         <SidebarItem>Settings</SidebarItem>
     </Sidebar>
     <main>
-        <p>router-view goes here</p>
+        <RouterView/>
     </main>
 </template>

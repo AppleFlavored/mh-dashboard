@@ -12,6 +12,7 @@ import TopNavbar from './components/TopNavbar.vue';
 
 <style>
 .page {
+    display: flex;
     width: 100%;
     height: calc(100vh - 55px);
     margin-top: 55px;
