@@ -1,0 +1,22 @@
+:root {
+    --text-light: #ffffff;
+    --bg-dark: #26262a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: var(--bg-dark);
+    color: #ffffff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
