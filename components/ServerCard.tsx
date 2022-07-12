@@ -8,7 +8,7 @@ export interface ServerCardProps {
 
 export default function ServerCard({ title, icon }: ServerCardProps) {
     return (
-        <div className='flex items-center justify-center px-4 bg-surface rounded-lg h-16'>
+        <div className='flex items-center justify-center px-4 bg-surface rounded-lg h-14'>
             <img src={icon}></img>
             <p className='flex-grow pl-4 text-lg'>{title}</p>
             <Link href='/dashboard/overview'>
