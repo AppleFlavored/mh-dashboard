@@ -1,7 +1,6 @@
-:root {
-    --text-light: #ffffff;
-    --bg-dark: #26262a;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
     margin: 0;
@@ -12,11 +11,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: var(--bg-dark);
+    background-color: #26262a;
     color: #ffffff;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
 }
